@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml:2:1-116
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml:2:1-116
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml:2:1-116
+	package
+		ADDED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml:2:70-114
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Workspace/Personal_Improvement/MyMy/shared/src/androidMain/AndroidManifest.xml
