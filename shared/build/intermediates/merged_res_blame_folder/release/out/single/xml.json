@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/xml/standalone_badge.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/xml/standalone_badge_gravity_top_start.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/xml/standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/xml/standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/xml/standalone_badge_offset.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/xml/standalone_badge_offset.xml"
+    }
+]

@@ -1,6 +1,6 @@
 package com.example.registrationapp.shared.network
 
-import com.example.registrationapp.shared.User
+import com.example.registrationapp.shared.model.Base
 import io.ktor.client.HttpClient
 import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
@@ -23,8 +23,13 @@ class ServiceApi {
             serializer = KotlinxSerializer(json)
         }
     }
-    suspend fun getUser(userEmail  : String) : User{
+    suspend fun getUser(userEmail  : String) : Base {
         val endpoint = USERS_ENDPOINT+userEmail+FIELDS_DATA
         return apiClient.get(endpoint)
+    }
+    suspend fun getAlternateUser(userEmail  : String) : Base {
+        val secondaryEndPoint = ""
+        val json = HttpClient().get<String>(secondaryEndPoint)
+        return Json.decodeFromString(Base.serializer(), json)
     }
 }

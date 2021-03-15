@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/37c7efd98a78c5e3f8a969c687cc2988/material-1.2.1/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    }
+]

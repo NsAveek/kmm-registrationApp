@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/c86dd0a35e7688dc84fcd99165494595/core-1.2.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/c86dd0a35e7688dc84fcd99165494595/core-1.2.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/c86dd0a35e7688dc84fcd99165494595/core-1.2.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Workspace/Personal_Improvement/MyMy/shared/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Aveek/.gradle/caches/transforms-2/files-2.1/c86dd0a35e7688dc84fcd99165494595/core-1.2.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
