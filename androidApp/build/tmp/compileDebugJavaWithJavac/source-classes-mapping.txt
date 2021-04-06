@@ -1,0 +1,2 @@
+com/example/expensetracker/androidApp/BuildConfig.java
+ com.example.expensetracker.androidApp.BuildConfig

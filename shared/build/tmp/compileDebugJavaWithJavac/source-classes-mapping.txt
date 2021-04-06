@@ -1,0 +1,2 @@
+com/example/expensetracker/shared/BuildConfig.java
+ com.example.expensetracker.shared.BuildConfig
