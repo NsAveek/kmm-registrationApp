@@ -1,6 +1,6 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
-// This is KMM module directory
+// This is KMM module directory or shared
 plugins {
     kotlin("multiplatform")
     kotlin("plugin.serialization")
