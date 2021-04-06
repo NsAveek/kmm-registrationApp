@@ -1,8 +1,11 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
+// This is KMM module directory
 plugins {
     kotlin("multiplatform")
+    kotlin("plugin.serialization")
     id("com.android.library")
+    id("com.squareup.sqldelight")
 }
 
 kotlin {
@@ -14,21 +17,42 @@ kotlin {
             }
         }
     }
+    val serializationVersion = "1.0.0-RC"
+    val ktorVersion = "1.4.0"
+    val sqlDelightVersion: String by project
+
     sourceSets {
         val coroutinesVersion = "1.3.9-native-mt"
 
         val commonMain by getting {
-            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
-        }
-        val commonTest by getting {
-            dependencies {
-                implementation(kotlin("test-common"))
-                implementation(kotlin("test-annotations-common"))
+            dependencies{
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"){
+                    because ("we require the coroutines for both of the platforms to fetch data")
+                }
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:$serializationVersion")
+                implementation("io.ktor:ktor-client-core:$ktorVersion")
+                implementation("io.ktor:ktor-client-serialization:$ktorVersion")
+                implementation("com.squareup.sqldelight:runtime:$sqlDelightVersion")
             }
         }
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
+                implementation("io.ktor:ktor-client-android:$ktorVersion")
+                implementation("com.squareup.sqldelight:android-driver:$sqlDelightVersion")
+            }
+        }
+        val iosMain by getting{
+            dependencies{
+                implementation("io.ktor:ktor-client-ios:$ktorVersion")
+                implementation("com.squareup.sqldelight:native-driver:$sqlDelightVersion")
+            }
+        }
+
+        val commonTest by getting {
+            dependencies {
+                implementation(kotlin("test-common"))
+                implementation(kotlin("test-annotations-common"))
             }
         }
         val androidTest by getting {
@@ -37,7 +61,6 @@ kotlin {
                 implementation("junit:junit:4.13")
             }
         }
-        val iosMain by getting
         val iosTest by getting
     }
 }
